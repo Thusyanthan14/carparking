@@ -1,0 +1,59 @@
+html body {
+    background-image: url('/images/roadbg.jpg');
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*
+{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.formcontainer
+{
+    margin: 3vw 18vw;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #070707;
+    opacity: 0.5;
+    color: white;
+}
+
+table
+{
+    margin: auto;
+    
+}
+
+table tr td
+{
+    padding: 15px 15px;
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+input{
+    padding: 1px 15px;
+    font-size: 20px;
+} 
+
+.submitbtn
+{
+    background-color: rgb(0, 95, 24);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}

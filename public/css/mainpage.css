@@ -1,0 +1,120 @@
+html body {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(DavidLibre-Medium.ttf);
+  }
+*
+{
+    text-decoration: none;
+}
+
+.nav_bar
+{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 30px rgba(0, 0, 0 , 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav_bar .logo img
+{
+    width: 40px;
+    margin-left: 30px;
+}
+
+.projectheading
+{
+    font-size: 40px;
+    font-family: myfont;
+    margin-left: 150px;
+}
+
+.nav_bar .list a
+{
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.landingpage
+{
+    display: flex;
+    flex-direction: row;
+}
+.homepagepic img
+{
+    width: 50vw;
+}
+
+.btn .btn1
+{
+    width: 350px;
+    margin-top: 270px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: myfont;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* .btn .btn2
+{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: myfont;
+} */
+
+.btn .adminhome
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn .adminhome .adminbtn1
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: myfont;
+}
+
+.btn .adminhome .adminbtn2
+{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: myfont;
+}
