@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+.aboutsection
+{
+    margin: 2px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutdetails
+{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+
+
+}
+
+.aboutimage img
+{
+    width: 35vw;
+
+}
+
+.aboutbtn
+{
+    margin-top: 20px;
+    background-color: rgb(221, 87, 25);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+}   
+
+.aboutbtn:hover
+{
+    background-color: blueviolet;
+}
+
+.aboutheading
+{
+    font-size: 30px;
+    color: cornflowerblue;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: red;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+
+/* Contact Style */
+
+.contactheading
+{
+    font-size: 30px;
+    text-align: right;
+    color: cornflowerblue;
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-right-color: red;
+    margin-right: 30px;
+    padding-right: 20px; 
+}
+
+.contactsection
+{
+    margin: 2px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    text-align: right;
+}
+
+.contactdetails
+{
+    margin-top: 30px;
+    margin-right: 80px;
+    font-size: 20px;
+    padding-right: 30px;
+    font-family: Libre Baskerville;
+}
+
+.contactimage img
+{
+    width: 35vw;
+
+}
+
+.contactbtn
+{
+    margin-top: 20px;
+    background-color: rgb(221, 87, 25);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+}   
+
+
+/* Emergencty */
+.emergencyimg img
+{
+    width: 16vw;
+}
+
+.emergencytext
+{
+    font-family:  Libre Baskerville;
+}
+
+.about_p
+{
+    font-family: Libre Baskerville;
+}

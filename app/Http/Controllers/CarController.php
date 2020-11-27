@@ -31,19 +31,14 @@ class CarController extends Controller
     public function select(Request $request, $id)
     {
         $carselect = Car::find($id);
-
         $carselect->update(['selected'=>true]);
-        $carselect = $request->session()->get('carname');
-
-        return redirect()->back()->with('message','Slot Selected');
+        return view('customers/reserve',compact('carselect'));
     }
 
     public function deselect(Request $request, $id)
     {
         $carselect = Car::find($id);
-
         $carselect->update(['selected'=>false]);
-
         return redirect()->back();
     }
 

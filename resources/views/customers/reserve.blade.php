@@ -13,7 +13,7 @@
     </div>
     <div class="formcontainer">
         <h2>Reserve parking area</h2>
-
+   <h3 style="color:white;"> Selected Slot  {{$carselect->carname}} </h3    >
         <form action="/confirmation" method="POST">
             @csrf
             <table>

@@ -24,7 +24,15 @@ Route::get('/parking', function(){
     return view('customers/parking');
 });
 
-Route::get('/reserve',[App\Http\Controllers\CustomerController::class, 'create']);
+Route::get('/contact', function(){
+    return view('contact');
+});
+
+Route::get('/about', function(){
+    return view('about');
+});
+
+// Route::get('/reserve',[App\Http\Controllers\CustomerController::class, 'create'])->name('reserve');
 Route::post('/confirmation',[App\Http\Controllers\CustomerController::class, 'store']);
 
 Route::get('/confirmation',[App\Http\Controllers\CustomerController::class, 'show']);
